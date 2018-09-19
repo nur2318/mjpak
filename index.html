@@ -313,7 +313,7 @@
             <div class="menuitems">
                 <div class="menuitem">
                   <h3>1. Drinks</h3>
-                  <h4>Coca-Cola, Sprite,Fanta, Sunkist, Sweepers, Solo, V, Red-Bull</h4>
+                  <h4>Coca-Cola, Sprite, Fanta, Sunkist, Sweepers, Solo, V, Red-Bull</h4>
                   <h3>(Can/Water $2.5) (Bottle [1.25L $4], [2L $6]) (Energy Drinks [V Can $3.5], [V Bottle - $4.5])</h3>
                 </div>
               </div>
@@ -332,27 +332,26 @@
     
   </main>
   </amp-selector>
-
-<div class="www-footer relative" id="Location">
-    <center>
-      <div style="padding:10%;">
-        <div class="menuitem1" style="border-radius: 0px; background: #ffffff;">
-          <h2>HERE'S WHERE TO FIND US</h2>
-          <h3>MJ Pizza & Kebab House</h3> 
-          <h3>285 Princes Hwy, Kingsville VIC 3012</h3>
-          👇
+  <center>
+    <div class="www-footer relative" id="Location">
+        <div style="padding:10%;">
+          <div class="menuitem1" style="border-radius: 0px; background: #ffffff;">
+            <h2>HERE'S WHERE TO FIND US</h2>
+            <h3>MJ Pizza & Kebab House</h3> 
+            <h3>285 Princes Hwy, Kingsville VIC 3012</h3>
+            👇
+          </div>
+          <amp-iframe width="600" 
+            title="mj Pizza & Kebab House"
+            height="300"
+            layout="responsive"
+            sandbox="allow-scripts allow-same-origin allow-popups"
+            frameborder="0"
+            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJPyo_jVZn1moRe88BwQqLEDQ&key=AIzaSyA-vp3P4UQBQjRGgDN3RBcvoL4QAGOFG9M">
+          </amp-iframe>
         </div>
-        <amp-iframe width="600" 
-          title="mj Pizza & Kebab House"
-          height="300"
-          layout="responsive"
-          sandbox="allow-scripts allow-same-origin allow-popups"
-          frameborder="0"
-          src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJPyo_jVZn1moRe88BwQqLEDQ&key=AIzaSyA-vp3P4UQBQjRGgDN3RBcvoL4QAGOFG9M">
-        </amp-iframe>
-      </div>
-    </center>
-</div>
+    </div>
+  </center>
   <!-- Start Footer -->
   <center><footer class="ampstart-footer relative" id="Contacts" style="padding:10px; color: red;">
         <h2>Contacts</h2>
@@ -377,36 +376,6 @@
       "trackPageview": {
         "on": "visible",
         "request": "pageview"
-      },
-      "previews": {
-        "on": "click",
-        "selector": "[data-vars-preview]",
-        "request": "event",
-        "vars": {
-          "eventCategory": "preview",
-          "eventAction": "click",
-          "eventLabel": "${preview}"
-        }
-      },
-      "downloads": {
-        "on": "click",
-        "selector": "[data-vars-download]",
-        "request": "event",
-        "vars": {
-          "eventCategory": "download",
-          "eventAction": "click",
-          "eventLabel": "${download}"
-        }
-      },
-      "outboundLinks": {
-        "on": "click",
-        "selector": "[data-vars-outbound-link]",
-        "request": "event",
-        "vars": {
-          "eventCategory": "outbound",
-          "eventAction": "click",
-          "eventLabel": "${outboundLink}"
-        }
       }
     }
   }
